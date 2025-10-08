@@ -1,0 +1,86 @@
+/* Check out the specificity (calculated weight) of the selector by hovering over it. */
+
+/* Element Selectors */
+body {
+    background-color: lightsteelblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+    background-color: #7888f3;
+}
+
+main {
+    background-color: #86b8f8;
+}
+
+footer {
+    background-color: #7e5ee7;
+}
+
+a {
+    color: #d5e2f8;
+}
+
+/* Multiple Element Selectors */
+h1,
+h2,
+p {
+    color: #252735;
+}
+
+h1,
+h2,
+p {
+    color: #1025be;
+}
+
+/* Descendant Selectors */
+footer h2 {
+    color: rgb(4, 59, 59);
+}
+
+nav ul {
+    background-color: #5c6292;
+}
+
+nav ul li {
+    /* longhand - 3 properties */
+    border-bottom-width: 0.125rem;
+    border-bottom-style: dashed;
+    border-bottom-color: #b5badf;
+    /* shorthand */
+    border-bottom: .125rem dashed #b5badf;
+}
+
+nav ul li a {
+    color: #2a2b33;
+    text-decoration: none;
+}
+
+/* Pseudo Class Selector */
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #0b1a8a;
+    font-weight: bold;
+}
+
+/* Class Selectors */
+.navigation {
+    list-style-type: none;
+    padding-top: .625rem;
+    padding-right: .625rem;
+    padding-bottom: .625rem;
+    padding-left: 3.125rem;
+}
+
+/* Descendant Combinator */
+ul.navigation {
+    padding: .9375rem .9375rem .9375rem .9375rem;
+}
+
+ul.navigation li {
+    padding: .3125rem;
+}
