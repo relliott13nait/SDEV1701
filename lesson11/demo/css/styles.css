@@ -1,0 +1,81 @@
+/* Find out the specificity (calculated weight) of the selector by hovering over it. */
+/*  Properties and values applied to the <body> element will be inherited. The browser applies default styling to elements. */
+body {
+    background-color: rgb(231, 138, 80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* MARGIN: pushes an elements away from other elements.
+PADDING: goes around an element and creates whitespace around the element.
+NOTE: if the value is zero we do not have to indicate a measurement type (px)  */
+/* Element Selectors */
+h1 {
+    text-transform: uppercase;
+    color: rgb(3, 0, 12);
+    border-bottom: .25rem solid rgb(232, 108, 0);
+    padding: 3rem;
+}
+
+/*  
+   
+    There are 4 values that could be applied:
+    padding-top, padding-right, padding-bottom, padding-left.
+ 
+    If we use only one value, it applies it to all 4 sides. You can also use shorthand: The order is always top-right-bottom-left (clockwise).
+    Example: padding: 48px 48px 48px 48px; */
+h2 {
+    font-size: 1.5625rem;
+    padding: .3125rem 0 .3125rem 0;
+}
+
+ul {
+    color: rgb(67, 44, 7);
+    list-style-type: square;
+    width: 31.25rem;
+}
+
+section {
+    width: 56.25rem;
+    margin: 3rem;
+}
+
+footer {
+    background-color: rgb(247, 173, 55);
+    padding: 3rem;
+}
+
+/* Multiple Element Selector*/
+h1,
+h2,
+p,
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Class Selectors */
+.menu-items {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    background-color: rgb(248, 206, 122);
+    width: 43.75rem;
+    border-left: 8px solid rgb(232, 108, 0);
+    padding: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.highlight {
+    color: rgb(232, 108, 0);
+    font-weight: bold;
+}
+
+/* Descendant Selectors */
+
+
+/* Pseudo-class Selector */

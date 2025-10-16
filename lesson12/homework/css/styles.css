@@ -1,0 +1,25 @@
+/* browsers add default styling and sizing through their user agent stylesheet */
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner-container {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+section {
+    background-color: grey;
+    margin-bottom: .9375rem;
+}
+
+/* h1 {
+    max-width: 60rem;
+    margin: 0 auto;
+} */
+
+header {
+    background-color: green;
+    padding: 0;
+}

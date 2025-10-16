@@ -1,0 +1,44 @@
+/* browsers add default styling and sizing through their user agent stylesheet */
+body {
+    background-color: lightgrey;
+}
+
+.inner-container {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+section {
+    background-color: grey;
+    margin-bottom: .9375rem;
+}
+
+h1 {
+    margin: 2rem 0;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+.padding {
+    padding-top: 1.5rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+    padding: 1.5rem 3rem;
+}
+
+.margin {
+    margin: 1.25rem 3.0625rem;
+}
+
+.border {
+    border: 0.3125rem groove brown;
+}
+
+.width {
+    width: 42.5rem;
+    padding: 3rem;
+    border: .1875rem solid burlywood;
+}

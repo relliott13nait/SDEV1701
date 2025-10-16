@@ -1,0 +1,88 @@
+body {
+    font-size: 100%;
+    /* rgb color palette */
+    background-color: grey;
+    font-family: verdana, geneva, sans-serif;
+}
+
+/* Utility Classes */
+.inner-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+
+/*typography*/
+
+h1 {
+    font-size: 1.5625rem;
+    font-weight: bold;
+    text-align: center;
+    /* shorthand - 2 values: Top & Bottom (first value). Right & Left (second value). This applies 25px padding to top and bottom only */
+    padding: 1.5625rem 0;
+}
+
+/*layout*/
+main {
+    background-color: darkgrey;
+    padding: 1.25rem;
+}
+
+footer {
+    background-color: darkgrey;
+    padding: 1.25rem;
+    margin-top: 1.5625rem;
+}
+
+
+/*classes*/
+.green-paint {
+    background-color: green;
+    height: 9.375rem;
+    width: 35%;
+}
+
+.blue-paint {
+    background-color: blue;
+    height: 18.75rem;
+    width: 50%;
+}
+
+.red-paint {
+    background-color: red;
+    height: 18.75rem;
+    width: 50%;
+}
+
+.yellow-paint {
+    background-color: yellow;
+    height: 9.375rem;
+    width: 35%;
+}
+
+.orange-paint {
+    background-color: orange;
+    height: 9.375rem;
+    width: 35%;
+}
+
+footer .red-paint,
+footer .blue-paint {
+    height: 7.8125rem;
+}
+
+/*calculating 2 Boxes:*/
+
+
+
+/*calculating 3 Boxes:*/
+
+
+
+/*calculating 4 Boxes:*/
