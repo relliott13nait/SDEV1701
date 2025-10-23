@@ -1,0 +1,86 @@
+body {
+  background-color: #f8f5f7;
+  font-family: Helvetica, sans-serif;
+
+}
+
+.inner-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  border: 1px solid grey;
+  color: grey;
+  border-radius: .25rem;
+  padding: 0.5rem 1rem;
+  justify-content: flex-end;
+}
+
+.text .inner-container {
+  align-content: center;
+
+}
+
+/* typography */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  /* align-items: center; */
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: #474647;
+  text-transform: uppercase;
+}
+
+
+/* header*/
+header {
+  background-color: #464647;
+  align-items: center;
+}
+
+ul li {
+  justify-content: flex-end;
+}
+
+ul a {
+  border: 1px solid white;
+  border-radius: .25rem;
+  padding: 0.5rem 1rem;
+  justify-content: flex-end;
+}
+
+/* Hero */
+.hero img {
+  display: block;
+  width: 100%;
+}
+
+.hero div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Intro */
+
+
+/* Events */
+
+/* services */
+
+/* Footer */

@@ -1,0 +1,47 @@
+body {
+    background-color: grey;
+}
+
+.inner-container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card {
+    background-color: darkgrey;
+    border: .0625rem solid #ccc;
+    padding: 1rem;
+    box-shadow: 0 0 10px 0 rgb(33 33 33 / 15%);
+    width: calc((100% - 3rem) / 4);
+    text-align: center;
+    border-radius: .25rem;
+}
+
+.card img {
+    margin-bottom: 0.5rem;
+    border-radius: .25rem;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+    text-align: left;
+}
