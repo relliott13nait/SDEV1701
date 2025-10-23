@@ -5,10 +5,8 @@ body {
 }
 
 .inner-container {
-  max-width: 960px;
+  width: 60rem;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
 }
 
 .flex-container {
@@ -16,17 +14,18 @@ body {
   gap: 1rem;
 }
 
+.inner-container.flex-container {
+  display: flex;
+  max-width: 60rem;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
 .btn {
   border: 1px solid grey;
   color: grey;
   border-radius: .25rem;
   padding: 0.5rem 1rem;
-  justify-content: flex-end;
-}
-
-.text .inner-container {
-  align-content: center;
-
 }
 
 /* typography */
@@ -36,9 +35,14 @@ a {
 }
 
 h1 {
-  font-size: 1rem;
-  font-weight: 600;
-  /* align-items: center; */
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start; */
+}
+
+h1 a{
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 h2 {
@@ -51,19 +55,30 @@ h2 {
 /* header*/
 header {
   background-color: #464647;
-  align-items: center;
+  height:7rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+nav {
+  display:flex;
 }
 
 ul li {
+  display:flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 ul a {
   border: 1px solid white;
-  border-radius: .25rem;
+  border-radius: .5rem;
   padding: 0.5rem 1rem;
   justify-content: flex-end;
+  align-items: center;
 }
+
 
 /* Hero */
 .hero img {
