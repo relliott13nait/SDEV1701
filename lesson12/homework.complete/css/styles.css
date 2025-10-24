@@ -1,0 +1,90 @@
+/* Base font & inner container */
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+/* inner-container: center text, limit width */
+/* max-width: 960px ÷ 16px = 60rem */
+.inner-container {
+  max-width: 60rem; /* 960px / 16px = 60rem */
+  margin: 0 auto;
+}
+
+/* header styling */
+header {
+  background-color: #d0e8d0;
+  /* padding: 24px 0 → 1.5rem 0 */
+  padding: 1.5rem 0; /* 24px / 16px = 1.5rem */
+}
+h1 {
+  text-align: center;
+}
+
+/* nav links */
+nav ul li {
+  /* margin-top: 18px → 1.125rem */
+  margin-top: 1.125rem; /* 18px / 16px = 1.125rem */
+  /* margin-bottom: 18px → 1.125rem */
+  margin-bottom: 1.125rem; /* 18px / 16px = 1.125rem */
+}
+nav a {
+  text-decoration: none;
+  /* padding: 8px 12px → 0.5rem 0.75rem */
+  padding: 0.5rem 0.75rem; /* 8px / 16px = 0.5rem, 12px / 16px = 0.75rem */
+  /* border: 2px → 0.125rem */
+  border: 0.125rem solid #5a8f5a; /* 2px / 16px = 0.125rem */
+  color: #335533;
+}
+/* hover and focus states */
+nav a:hover,
+nav a:focus {
+  background-color: #5a8f5a;
+  color: white;
+}
+
+main {
+  background-color: #f0f9f0;
+}
+main a {
+  color: #335533;
+  text-decoration: none;
+}
+/* hover and focus states */
+main a:hover,
+main a:focus {
+  text-decoration: underline;
+}
+
+section {
+  text-align: center;
+  /* padding: 32px 0 → 2rem 0 */
+  padding: 2rem 0; /* 32px / 16px = 2rem */
+}
+
+h2 {
+  /* font-size: 24px → 1.5rem */
+  font-size: 1.5rem; /* 24px / 16px = 1.5rem */
+  /* margin-bottom: 16px → 1rem */
+  margin-bottom: 1rem; /* 16px / 16px = 1rem */
+  align-items: center;
+}
+
+p {
+  /* font-size: 16px → 1rem */
+  font-size: 1rem; /* 16px / 16px = 1rem */
+  /* margin-bottom: 12px → 0.75rem */
+  margin-bottom: 0.75rem; /* 12px / 16px = 0.75rem */
+}
+
+/* footer styling */
+footer {
+  background-color: #c8e4c8;
+  /* padding: 24px 0 → 1.5rem 0 */
+  padding: 1.5rem 0; /* 24px / 16px = 1.5rem */
+}
+footer p {
+  text-align: center;
+  /* font-size: 14px → 0.875rem */
+  font-size: 0.875rem; /* 14px / 16px = 0.875rem */
+}

@@ -1,0 +1,41 @@
+body {
+    font-size: 100%;
+    background-color: #eff6ff;
+}
+
+.inner-container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+header {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.left-column,
+.right-column {
+    background-color: #e2e8f0;
+    width: 50%;
+    padding: 1rem;
+}
+
+.left-column {
+    margin-right: 1.5rem;
+}
+.bottom-column {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #99aec9;
+}
+

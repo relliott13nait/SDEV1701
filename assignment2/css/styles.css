@@ -5,7 +5,7 @@ body {
 }
 
 .inner-container {
-  width: 60rem;
+  max-width: 60rem;
   margin: 0 auto;
 }
 
@@ -16,9 +16,16 @@ body {
 
 .inner-container.flex-container {
   display: flex;
-  max-width: 60rem;
   align-items: stretch;
   justify-content: space-between;
+}
+
+.text.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .btn {
@@ -37,16 +44,15 @@ a {
 h1 {
   display: flex;
   align-items: center;
-  /* justify-content: flex-start; */
 }
 
-h1 a{
+h1 a {
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #474647;
   text-transform: uppercase;
 }
@@ -55,40 +61,43 @@ h2 {
 /* header*/
 header {
   background-color: #464647;
-  height:7rem;
+  height: 7rem;
   display: flex;
   align-items: stretch;
   justify-content: space-between;
 }
 
 nav {
-  display:flex;
+  display: flex;
 }
 
 ul li {
-  display:flex;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 ul a {
+  display: flex;
   border: 1px solid white;
   border-radius: .5rem;
   padding: 0.5rem 1rem;
-  justify-content: flex-end;
+  width: 7.5rem;
+  justify-content: center;
   align-items: center;
 }
 
 
 /* Hero */
+.hero {}
+
 .hero img {
-  display: block;
+  /* display: block; */
   width: 100%;
 }
 
-.hero div {
-  display: flex;
-  flex-direction: column;
+.lead {
+  text-transform: uppercase;
 }
 
 /* Intro */
