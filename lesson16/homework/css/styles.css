@@ -1,0 +1,41 @@
+/* 
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-weight: 900;
+  font-style: normal;
+
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+ */
+body {
+    font-size: 100%;
+    background-color: #FFFFFF;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inner-container {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+/* *************** typography ************** */
+
+/* ************** header ************** */
+
+
+.flex-container {
+    display: flex;
+    gap: 1.875rem;
+}
+
+
+
+
+main {
+    margin-bottom: 6.25rem;
+}

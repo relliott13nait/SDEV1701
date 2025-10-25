@@ -16,42 +16,66 @@ body {
 }
 
 /* typography */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-align: center;
   color: #464647;
 }
 
 h1 {
-  font: 1.5rem;
+  font-size: 1.5rem;
 }
 
 h2 {
-  font: 3rem;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
 h3 {
-  font: 1.4375rem;
+  font-size: 1.4375rem;
 }
 
 /* header*/
-header{
+header {
   background-color: #464647;
   padding: 1.25rem;
 }
 
-header.flex-container{
+header .flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+header a {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+nav li {
+  border: .0625rem solid white;
+  border-radius: .5rem;
+  color: #fff;
+  padding: 0.5rem;
+  width: 7rem;
+}
+
 /* Hero */
-p.lead{
+p.lead {
   font: 1.125rem;
   text-transform: uppercase;
   text-align: center;
 }
+
 /* Intro */
 
 
@@ -60,20 +84,3 @@ p.lead{
 /* services */
 
 /* Footer */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
