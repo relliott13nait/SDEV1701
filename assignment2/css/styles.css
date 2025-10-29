@@ -30,6 +30,7 @@ h1 {
 h2 {
   font-size: 3rem;
   text-transform: uppercase;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -69,18 +70,154 @@ nav li {
   width: 7rem;
 }
 
+nav ul li:hover {
+  background-color: #616366;
+}
+
 /* Hero */
 p.lead {
-  font: 1.125rem;
+  font-size: 1.125rem;
   text-transform: uppercase;
   text-align: center;
 }
 
-/* Intro */
+.hero .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.hero div div {
+  display: flex;
+  justify-content: center;
+}
+
+.hero div div a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero a.btn {
+  border: .0625rem solid #464647;
+  border-radius: .5rem;
+  color: #464647;
+  padding: 0.5rem;
+  width: 12rem;
+  margin: 3rem 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.hero a.btn:hover {
+  background-color: #a6a6a8;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+/* Intro */
+.intro {
+  background-color: #464647;
+  margin-bottom: 3rem;
+}
+
+.intro h3 {
+  color: white;
+  margin-bottom: 1rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.intro p {
+  padding-left: 1rem;
+  color: white;
+}
 
 /* Events */
 
+.events {
+  margin-bottom: 3rem;
+}
+
+.events .card {
+  border: .0625rem solid #464647;
+  border-radius: .5rem;
+  color: #464647;
+  padding: 2rem;
+  margin-left: 1rem;
+  height: 35rem;
+  text-align: center;
+  box-shadow: .125rem .625rem 2.5rem rgba(22, 20, 19, 0.4);
+}
+
+.card img {
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+  width: 75%;
+  display: inline-block;
+}
+
+.card p,
+.card ul {
+  text-align: left;
+  margin-top: 3rem;
+  list-style: circle;
+}
+
 /* services */
+.services {
+  background-color: #a6a6a8;
+  padding: 3rem;
+}
+
+
+.services .card {
+  border: 1px solid #f6f6f7;
+  border-radius: .5rem;
+  color: grey;
+  padding: 2rem;
+  background-color: #f6f6f7;
+  width: 14rem;
+  height: 12rem;
+  text-align: center;
+  box-shadow: .125rem .625rem 2.5rem rgba(22, 20, 19, 0.4);
+}
+
+.services .card p {
+  text-align: center;
+  margin: 0;
+  padding-top: 1rem;
+}
 
 /* Footer */
+footer {
+  background-color: #464647;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer .btn {
+  text-align: center;
+  border-radius: .5rem;
+  color: #464647;
+  padding: 0.5rem;
+  width: 12rem;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 1rem;
+  background-color: white;
+}
+
+footer .btn:hover {
+  text-decoration: underline;
+  background-color: #a6a6a8;
+}
