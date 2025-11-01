@@ -1,0 +1,38 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #111;
+    background-color: white;
+}
+
+.inner-container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    padding: 1.5rem;
+    background-color: #444242;
+
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #504c50;
+    margin: 1rem;
+}
+
+main p {
+    margin-bottom: 1.5rem;
+}
